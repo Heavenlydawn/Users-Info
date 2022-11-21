@@ -20,7 +20,7 @@ const UsingFetch = () => {
   }, []);
 
   return (
-    <div className="flex flex-col justify-center items-center w-100  p-10">
+    <div id="container" className="flex flex-col justify-center items-center w-100  p-10">
     <h1 className= "text-7xl font-bold" >USERS INFORMATION</h1>
       {users.length > 0 && (
         <div className="flex gap-20 flex-wrap items-center justify-center my-10">
